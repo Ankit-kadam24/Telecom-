@@ -1,42 +1,19 @@
-.container {
-    margin-top: 10px;
-  }
-  
-  
-  .example-card {
-      max-width: 600px;
-      background-color: whitesmoke;
-    }
-    .card {
-     
-      background-color: whitesmoke;
-    }
-    .example-header-image {
-      background-image: url('/assets/user-logo.png');
-  
-      background-size: cover;
-    }
-  
-   .card2 {
-     margin: 10px;
-   }
-  
-   .card3 {
-     margin: 10px;
-   }
-    .user-detail {
-      text-size-adjust: auto;
-      align-items: center;
-    }
-  
-    .accordin1 {
-      margin: 10px;
-    }
-  
-    .accordin2 {
-      margin: 10px;
-    }
-  
-    .accordin3 {
-      margin: 10px;
-    }
+.container{
+  width: 100%;
+  height: auto;
+  background: linear-gradient(to right, #0575E6, #021B79);
+  padding: 50px;
+  margin-bottom: 60px;
+  margin-top: 30px;
+}
+.user-details{
+  margin-bottom: 20px;
+}
+.other-details{
+  margin-bottom: 20px;
+}
+.example-header-image {
+  background-image: url('/assets/user-logo.png');
+  background-size: cover;
+}
+
