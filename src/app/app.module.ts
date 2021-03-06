@@ -13,6 +13,7 @@ import { FooterComponent } from './component/footer/footer.component';
 import { AdminDashboardComponent } from './component/admin-dashboard/admin-dashboard.component';
 import { UserDashboardComponent } from './component/user-dashboard/user-dashboard.component';
 import { FormsModule } from "@angular/forms";
+//import { BackendService } from './component/Services/backend.service';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatToolbarModule} from '@angular/material/toolbar';
@@ -30,12 +31,16 @@ import { PaybillsComponent } from './Landline/paybills/paybills.component';
 import { SuccessfulComponent } from './successful/successful.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import {MatCardModule} from '@angular/material/card';
-
+//import { AuthGuard } from '../app/component/Services/auth-guard.service';
+import { ToastrModule } from 'ngx-toastr';
+import { HttpClientModule } from "@angular/common/http";
 
 @NgModule({
   declarations: [
     AppComponent,
+    //BackendService,
     LoaderComponent,
+    
     LoginComponent,
     RegisterComponent,
     AdminLoginComponent,
@@ -57,6 +62,8 @@ import {MatCardModule} from '@angular/material/card';
   ],
   imports: [
     BrowserModule,
+    
+    HttpClientModule,
     AppRoutingModule,
     ReactiveFormsModule,
     FormsModule,
